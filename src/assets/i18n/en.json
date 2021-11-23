@@ -1,0 +1,13 @@
+{
+    "GROCERY": {
+        "TITLE": "Grocery shopping",
+        "DESCRIPTION": "Hello, these are the products available for the purchase of products",
+        "DATA": {
+            "NAME": "Milk"
+        }
+    },
+    "HOME": {
+        "ENGLISH": "English",
+        "SPANISH": "Spanish"
+    }
+}

@@ -1,0 +1,31 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>super</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-anuncios></app-anuncios>
+  <h1>
+    {{ 'GROCERY.TITLE' | translate }}
+  </h1>
+  <select [ngModel]="selectedLanguage" (ngModelChange)="selectLanguage($event)">
+    <option value="es">
+    {{ 'HOME.SPANISH' | translate }}
+    </option>
+    <option value="en">
+    {{ 'HOME.ENGLISH' | translate }}
+    </option>
+    </select>
+  <div>
+    <ion-list  *ngFor="let item of product" >
+    <ion-item>
+      <ion-label>{{item.name}}</ion-label>
+      <button color="primary" (click)="suma(item.name)">+</button>
+      <button color="primary" (click)="resta(item.name)">-</button>
+    </ion-item>
+  </ion-list>
+</div>
+</ion-content>
+ 

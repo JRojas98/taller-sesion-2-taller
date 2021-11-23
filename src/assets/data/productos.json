@@ -1,0 +1,16 @@
+{"products" :[ {
+    "name": "Milk",
+    "cantidad": 0,
+    "precio": 100
+    },
+    {
+    "name": "Tomate",
+    "cantidad": 0,
+    "precio": 50
+    },
+    {
+    "name": "Queso",
+    "cantidad": 0,
+    "precio": 80
+}]
+}
